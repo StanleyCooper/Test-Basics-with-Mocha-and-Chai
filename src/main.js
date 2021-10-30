@@ -1,4 +1,6 @@
 function averageScore(students) {
+    if (!students) return null;
+
     let totalScore = 0;
     for (let i = 0; i < students.length; i++) {
         totalScore += students[i].score;
